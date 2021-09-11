@@ -84,7 +84,7 @@ const AudioPicker = (() => {
       return _currentSource();
     },
     getSources: _getAudioSources,
-    setSources: _setAudioSource,
+    setSource: _setAudioSource,
     createButtons: _createButtons,
   };
 })();
