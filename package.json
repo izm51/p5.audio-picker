@@ -1,0 +1,23 @@
+{
+  "name": "p5.audio-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "p5.audio-picker.js",
+  "scripts": {
+    "minify": "uglifyjs --compress --mangle --output p5.audio-picker.min.js -- p5.audio-picker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izm51/p5.audio-picker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izm51/p5.audio-picker/issues"
+  },
+  "homepage": "https://github.com/izm51/p5.audio-picker#readme",
+  "devDependencies": {
+    "uglify-js": "^3.14.2"
+  }
+}
