@@ -19,6 +19,13 @@ const audioSources = await AudioPicker.getSources();
 - Get audio sources you can use
 - (Return a list of audio souces)
 
+### setSource()
+```js
+setSource(2)
+```
+- Set input source and start audioIn.
+- Param: {Int} An index in the array returned by getSources().
+
 ### createButtons()
 ```js
 const bttons = AudioPicker.createButtons(() => {
@@ -27,7 +34,7 @@ const bttons = AudioPicker.createButtons(() => {
 })
 ```
 - Create buttons that displays each label of audio sources.
-- When pressed the button, start audioIn with the audio source.
+- When pressed the button, setSource at the index of that button and removeButtons.
 - Param: {Function} onPressed()
 - Return Buttons
   
